@@ -31,7 +31,7 @@
         <td> <a href="cuentas/editar/{{$cuenta->id}}">Editar</a></td> 
         <td> <a href="cuentas/eliminar/{{$cuenta->id}}">Eliminar</a></td> 
         <td> <a href="movimientos/retiro/{{$cuenta->id}}">Retirar</a></td> 
-        <td> <a href="movimientos/depositos/{{$cuenta->id}}">Depositar</a></td> 
+        <td> <a href="movimientos/deposito/{{$cuenta->id}}">Depositar</a></td> 
 
         
                                    
