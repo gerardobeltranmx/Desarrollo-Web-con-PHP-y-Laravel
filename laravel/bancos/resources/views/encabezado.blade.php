@@ -5,21 +5,10 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de Ahorros</title>
 </head>
-<body>  
+<body>
+<h2>Bancos de la Ilusión</h2>
+<h3>Sistema de cuentas de ahorros</h3>
 
-<h3>Menu</h3>
 
-<ul>
-    <li>
-    <a href="empleados/">Lista de Empleados</a>
-    </li>
-    <li>
-    <a href="empleados/nuevo">Nuevo empleado</a>
-    </li>
-   
-</ul>
-
-</body>
-</html>

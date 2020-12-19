@@ -16,7 +16,7 @@
     <tr><td>Fecha</td><td>    {{$empleado->fecha}}</td></tr>
     <tr><td>Sueldo</td><td>{{$empleado->sueldo}}</td></tr>
     </table>
-    <a href="../../empleados/eliminarConfirmar/{{$empleado->id}}">Si</a>
+    <a href="{{asset('empleados/eliminarConfirmar/$empleado->id}}">Si</a>
     <a href="../../empleados">No</a>
     
 </body>

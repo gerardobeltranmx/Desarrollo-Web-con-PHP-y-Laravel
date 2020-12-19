@@ -9,7 +9,7 @@
 <body>
 
 <h3>Editar Empleado</h3>
-<form action="../../empleados/actualizar/{{$empleado->id}}" method="get">
+<form action="empleados/actualizar/{{$empleado->id}}" method="get">
 
             <div class ="form-group">
                <label for="id"> ID </label>

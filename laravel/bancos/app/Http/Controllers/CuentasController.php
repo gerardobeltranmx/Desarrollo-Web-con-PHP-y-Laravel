@@ -8,6 +8,11 @@ use App\Models\Cuenta;
 class CuentasController extends Controller
 {
 
+    function menu(){
+
+        return view ('menu');
+    }
+
     function index(){
 
         $cuentas = Cuenta::all();
