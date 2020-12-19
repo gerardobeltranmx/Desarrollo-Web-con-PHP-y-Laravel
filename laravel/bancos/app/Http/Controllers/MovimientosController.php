@@ -33,4 +33,15 @@ class MovimientosController extends Controller
 
     }
 
+
+    public function operaciones($id){
+
+        $operaciones = Movimiento::where('idcuenta', $id)->get();
+
+        return view('/movimientos/operaciones', ['operaciones'=>$operaciones]);
+
+
+    }
+
+
 }

@@ -19,5 +19,6 @@ Route::get('/cuentas/nuevo', 'CuentasController@nuevo');
 Route::get('/cuentas/guardar', 'CuentasController@guardar');
 Route::get('/movimientos/deposito/{id}', 'MovimientosController@deposito');
 Route::get('/movimientos/deposito_guardar', 'MovimientosController@deposito_guardar');
+Route::get('/movimientos/operaciones/{id}', 'MovimientosController@operaciones');
 
 

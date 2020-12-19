@@ -32,6 +32,7 @@
         <td> <a href="cuentas/eliminar/{{$cuenta->id}}">Eliminar</a></td> 
         <td> <a href="movimientos/retiro/{{$cuenta->id}}">Retirar</a></td> 
         <td> <a href="movimientos/deposito/{{$cuenta->id}}">Depositar</a></td> 
+        <td> <a href="movimientos/operaciones/{{$cuenta->id}}">Operaciones</a></td> 
 
         
                                    
