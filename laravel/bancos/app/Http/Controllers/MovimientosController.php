@@ -15,4 +15,22 @@ class MovimientosController extends Controller
 
 
     }
+
+    public function deposito_guardar(Request $request){
+
+        $movimiento = new Movimiento;
+
+        $movimiento->idcuenta = $request->id;
+        $movimiento->tipo = 'D';
+        $movimiento->cantidad = $request->cantidad;
+        $movimiento->fechamov = date('Y-m-d H:i:s');
+    
+        $movimiento->save();
+
+        
+        return Redirect('/cuentas');
+
+
+    }
+
 }
