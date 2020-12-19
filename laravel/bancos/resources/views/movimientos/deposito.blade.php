@@ -8,17 +8,17 @@
 </head>
 <body>
 
-<h3>Nuevo Empleado</h3>
+<h3>Deposito a cuenta</h3>
 <form action="{{asset('movimientos/deposito_guardar')}}" method="get">
 
 
             <div class ="form-group">
                <label for="id"> ID </label>
-               <input type="text" readony value='{{$cuenta->id}}}' class ="form-control" name="id" id="id">
+               <input type="text" readonly value='{{$cuenta->id}}' class ="form-control" name="id" id="id">
            </div> 
            <div class ="form-group">
                <label for="nombre"> Nombre </label>
-               <input type="text" readony value='{{$cuenta->nombre}}}' class ="form-control" name="nombre" id="nombre">
+               <input type="text" readonly value='{{$cuenta->nombre}}' class ="form-control" name="nombre" id="nombre">
            </div>
    
            <div class ="form-group">
